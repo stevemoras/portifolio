@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.main{
+    width: 100%;
+    background: black;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 153, 255);
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(0, 107, 247);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 120%;
+    width: 120%;
+    left: 40%;
+
+    border-radius: 100%;
+    transform: translate(-55%);
+    bottom: 3rem;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #008cff;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+#photo {
+    width: 24rem;
+    height: 24rem;
+
+    border-radius: 100%;
+
+    position: relative;
+    left: 2rem;
+    top: 10rem;
+}
+
+#dataMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12rem;
+}
+
+#textabout {
+    color: white;
+}
+
+#textabout h2 {
+    font-size: 1rem;
+    position: relative;
+    top: 10rem;
+}
+
+#services {
+    width: 90%;
+    height: 20rem;
+
+    position: relative;
+    bottom: -12rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#services span {
+    width: 16rem;
+    height: 4rem;
+
+    background-color: rgb(0, 89, 255);
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: .3rem;
+
+    cursor: pointer;
+    transition: 1s;
+}
+
+#services span:hover {
+    background-color: rgb(0, 79, 168);
+}
+
+.top {
+    position: relative;
+    top: 14rem;
+}
+
+#langage {
+    width: 90%;
+    height: 15rem;
+
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+h2 {
+    color: white;
+    margin-inline: auto;
+}
+
+#languagesWork {
+    width: 98%;
+    height: 10rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+#languagesWork span {
+    width: 7rem;
+    height: 6rem;
+
+    display: block;
+}
+
+#js {
+    background: url("./pic/js.png")no-repeat center center/cover;
+}
+
+#pyton {
+    background: url("./pic/AI-Python-Libraries-1000x600.webp")no-repeat center center/cover;
+}
+
+#php {
+    background: url("./pic/PHP.jpg")no-repeat center center/cover;
+}
+
+#r {
+    background: url("./pic/react-1-1056x750.jpg")no-repeat center center/cover;
+}
+
+#cardProject {
+    width: 90%;
+    height: 40rem;
+
+    margin-inline: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    position: relative;
+    top: 5rem;
+}
+
+#cardProject img {
+    width: 20rem;
+    height: 20rem;
+
+    border-radius: .5rem;
+}
+
+#port {
+    position: relative;
+    top: 2rem;
+    right: -36rem;
+}
